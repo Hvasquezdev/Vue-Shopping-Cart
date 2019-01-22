@@ -5,7 +5,7 @@
       <BannerComponent />
     </header>
     <AboutComponent />
-    <StoreComponent />
+    <StoreComponent /> <!-- TODO: Filter Btn -->
     <FooterComponent />
   </div>
 </template>

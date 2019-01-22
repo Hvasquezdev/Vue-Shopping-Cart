@@ -91,7 +91,7 @@ export default {
     }),
     searchItems() {
       const dataResult = this.items.filter(item => item.name.toLowerCase() === this.search.toLowerCase());
-      return dataResult[0] ? this.searching() : this.items;
+      return dataResult[0] ? dataResult : this.items;
     }
   }
 }
